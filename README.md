@@ -3,7 +3,7 @@
 The implementation proposed is based on the method described in the following publication : *"Object Removal by Exemplar-Based Inpainting"* written by A. Criminisi, P. Pérez and K. Toyama.
 
 ## Description
-This project implements an inpainting method for reconstructing missing (or damaged) regions of an image using an **exemplar-based** approach. The main goal of this method is to fill in missing areas of an image by using "patches" that are similar to those found in the intact parts of the image. This technique is widely used in image processing, particularly for image restoration and object removal. The specificity of the methode relies on the computation of a priority coefficient defining which pixels is treated first. This approach allows to reproduce very well contours and geometrical forms.
+This project implements an inpainting method for reconstructing missing (or damaged) regions of an image using an **exemplar-based** approach. The main goal of this method is to fill in missing areas of an image by using "patches" that are similar to those found in the intact parts of the image. This technique is widely used in image processing, particularly for image restoration and object removal. The specificity of the method relies on the computation of a priority coefficient defining which pixels is treated first. This approach allows to reproduce very well contours and geometrical forms.
 
 ## Method
 The **exemplar-based** inpainting method works in the following major steps:
